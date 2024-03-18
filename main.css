@@ -56,7 +56,7 @@ img {
     margin: 0 auto;
 }
 /*=============== BUTTON ===============*/
-.button-login {
+.button-black {
     font-size: 24px;
     font-weight: var(--font-medium);
     background: var(--color-black);
@@ -65,6 +65,16 @@ img {
     color: #FEFEFE;
     text-transform: uppercase;
     transform: translateY(7%)
+}
+
+.button-black:active {
+    transform: scale(0.95);
+}
+
+.button-slider {
+    position: absolute;
+    bottom: 0;
+    left: 300px 
 }
 /*=============== HEADER ===============*/
 
@@ -78,34 +88,81 @@ img {
     align-items: center;
 }
 
-.logo {
+.header-logo {
     display: flex;
     column-gap: 20px;
 }
 
-.logo h1 {
+.header-logo h1 {
     text-transform: uppercase;
     font-weight: var(--font-black);
     font-size: 40px;
     letter-spacing: 3px;
 }
 
-.nav {
+.header-nav {
     display: flex;
     column-gap: 20px;
 }
 
-.nav ul {
+.header-nav ul {
     display: flex;
     column-gap: 30px;
     align-items: center;
 }
 
-.nav a {
+.header-nav a {
     font-weight: var(--font-medium);
     font-size: 22px;
     color: var(--nav-link);
+    text-transform: uppercase;
 }
+
+/*=============== SLIDER START ===============*/
+.main-swiper {
+    padding: 76px 0 63px 0;
+}
+
+.swiper-items {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-item {
+    width: 1400px;
+    height: 852px;
+    border-radius: 59px;
+    background: #F4F6F5;
+}
+
+.swiper-img img {
+    position: absolute;
+}
+
+.swiper-text {
+    padding: 103px 0 90px 124px;
+}
+
+.swiper-text__title {
+    font-weight: var(--font-black);
+    font-size: 60px;
+}
+
+.swiper-text__description {
+    padding: 60px 0 55px 0;
+    font-weight: var(--font-regular);
+    font-size: 25px;
+    color: #191818;
+}
+
+.bg-title__white {
+    background: #FFFFFF;
+}
+
+.bg-title__gold {
+    background: #EBD96B;
+}
+/*=============== SLIDER END ===============*/
 
 
 
