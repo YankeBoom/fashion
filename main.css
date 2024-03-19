@@ -3,7 +3,7 @@
 
 /*=============== COLORS ===============*/
 :root {
-    --color-gold: #E6C744;
+    --color-gold: #EBD96B;
     --body-white: #FFFFFF;
     --color-black: #000000;
     --color-gray: #C2C8DA;
@@ -123,50 +123,99 @@ img {
     padding: 76px 0 63px 0;
 }
 
-.swiper-items {
+/* .swiper-items {
     display: flex;
     justify-content: center;
-}
+} */
 
-.swiper-item {
-    width: 1400px;
-    height: 852px;
+/* .swiper-item {
     border-radius: 59px;
     background: #F4F6F5;
+
+    display: flex;
+    column-gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
+} */
+
+.swiper-content {
+    border-radius: 59px;
+    background: #F4F6F5;
+
+    display: flex;
+    column-gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
 }
 
-.swiper-img img {
-    position: absolute;
-}
-
-.swiper-text {
-    padding: 103px 0 90px 124px;
-}
 
 .swiper-text__title {
+    max-width: 480px;
+    margin-bottom: 40px;
     font-weight: var(--font-black);
-    font-size: 60px;
+    font-size: 70px;
+    line-height: 1.25;
 }
 
-.swiper-text__description {
-    padding: 60px 0 55px 0;
-    font-weight: var(--font-regular);
-    font-size: 25px;
-    color: #191818;
+.swiper-text__desc {
+   font-weight: var(--font-regular);
+   font-size: 22px;
+   line-height: calc(48 / 22);
+   letter-spacing: -0.05em;
+   margin-bottom: 60px;
 }
 
-.bg-title__white {
-    background: #FFFFFF;
+.swiper__btn-wrapper {
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
 }
 
-.bg-title__gold {
-    background: #EBD96B;
+.swiper__btn-wrapper::before {
+    content: "";
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('../img/yellow-decor.svg');
+}
+
+.hightlight {
+    position: relative;
+    display: inline-block;
+}
+
+.hightlight span {
+    position: relative;
+    z-index: 1;
+}
+
+.hightlight::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: 0px;
+    left: -40px;
+    right: -160px;
+    background-color: #FFFFFF;
+    transform: rotate(-2deg);
+}
+
+
+.hightlight--yellow::before {
+    background-color: var(--color-gold);
+    right: -110px;
 }
 /*=============== SLIDER END ===============*/
 
+/*=============== PARTNERS START ===============*/
 
+.partners {
+    margin-top: 63px;
+    background-color: var(--color-gold);
+}
 
-
+/*=============== PARTNERS END ===============*/
 
 
 
