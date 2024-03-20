@@ -38,7 +38,7 @@ body {
 
 ul {
     list-style: none;
-  }
+}
   
 a {
     text-decoration: none;
@@ -138,6 +138,10 @@ img {
     padding-left: 120px;
 } */
 
+.swiper {
+    position: relative;
+}
+
 .swiper-content {
     border-radius: 59px;
     background: #F4F6F5;
@@ -146,6 +150,14 @@ img {
     column-gap: 24px;
     padding-top: 68px;
     padding-left: 120px;
+}
+
+.swiper-content__red {
+    background: #D31E1E;
+}
+
+.swiper-content__green {
+    background: #159615;
 }
 
 
@@ -206,6 +218,8 @@ img {
     background-color: var(--color-gold);
     right: -110px;
 }
+
+
 /*=============== SLIDER END ===============*/
 
 /*=============== PARTNERS START ===============*/
@@ -216,6 +230,7 @@ img {
 }
 
 /*=============== PARTNERS END ===============*/
+
 
 
 
