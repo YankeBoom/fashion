@@ -224,11 +224,17 @@ img {
 
 /*=============== PARTNERS START ===============*/
 
-.partners {
-    margin-top: 63px;
-    background-color: var(--color-gold);
+.brands {
+   padding: 60px 0 55px;
+   background-color: var(--color-gold);
 }
 
+.brands-list{
+    display: flex;
+    align-items: center;
+    column-gap: 120px;
+    mix-blend-mode: multiply;
+}
 /*=============== PARTNERS END ===============*/
 
 
