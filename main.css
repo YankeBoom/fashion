@@ -483,6 +483,46 @@ img {
 
 /*=============== FAVORITE END ===============*/
 
+/*=============== PROMO START ===============*/
+.promo {
+    background-color: #E5C643;
+}
+
+.promo-content {
+    padding: 156px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.promo-content__title {
+    max-width: 740px;
+    margin-bottom: 42px;
+    font-weight: var(--font-black);
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.promo-content__desc {
+    margin-bottom: 48px;
+    color: #FFFCF8;
+    font-weight: var(--font-regular);
+    font-size: 30px;
+}
+
+.promo-input {
+    position: relative;
+    width: 574px;
+    padding: 36px 10px 34px 28px;
+    background-color: #FFFFFF;
+    color: #767676;
+}
+
+.promo-btn {
+    position: absolute;
+}
+
 
 
 
