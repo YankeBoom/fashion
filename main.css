@@ -350,7 +350,8 @@ img {
 /*=============== BANNER START ===============*/
 
 .banner {
-    background-color: #E0C340;
+    /* background-color: rgb(249 220 89); */
+    background: linear-gradient(#ffe44f, #d9bb34);
 }
 
 .banner-content__img img {
@@ -511,9 +512,15 @@ img {
     font-size: 30px;
 }
 
-.promo-input {
+form {
     position: relative;
+}
+
+.promo-input {
+    display: block;
+    border-radius: 10px;
     width: 574px;
+    height: 87px;
     padding: 36px 10px 34px 28px;
     background-color: #FFFFFF;
     color: #767676;
@@ -521,8 +528,51 @@ img {
 
 .promo-btn {
     position: absolute;
+    top: .1em;
+    right: .4em;
 }
 
+/*=============== PROMO END ===============*/
+
+/*=============== FOOTER START ===============*/
+.footer {
+    background-color: #000000;
+}
+
+.footer-content {
+    padding: 135px 0 177px 0;
+}
+
+.footer-content__title {
+    font-weight: var(--font-black);
+    color: #FFFFFF;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.footer-content__desc {
+    color: #8E8E8E;
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+.footer-content_media {
+    display: flex;
+    column-gap: 14px;
+}
+
+.social {
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--color-gold);
+}
+
+.social img {
+    width: 28px;
+    height: 28px;
+}
+/*=============== FOOTER END ===============*/
 
 
 
